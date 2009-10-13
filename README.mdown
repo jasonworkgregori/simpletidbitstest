@@ -1,0 +1,32 @@
+
+simpletidbitstest
+-----------------
+
+A set of projects to show off and test different simpletidbits frameworks.
+
+
+
+How To
+------
+
+1.  __Get a Copy of simpletidbitstest__  
+    [Download](http://github.com/jasongregori/simpletidbitstest) or clone with git.  
+    `git clone git://github.com/jasongregori/simpletidbitstest`
+
+2.  __Get a Copy of simpletidbits__
+    [Download](http://github.com/jasongregori/simpletidbits) or use git to clone a copy of simpletidbits from github.  
+    `git clone git://github.com/jasongregori/simpletidbits.git`
+
+3.  __Put it in the Correct Place__
+    simpletidbitstest expects to be in the same folder as simpletidbits.
+
+4.  __Hit Build and Go__
+    You should be good to go, however, I haven't tested this on another machine. You'll have to tell me how it goes.
+
+
+
+Thanks
+------
+
+Thanks,
+Jason Gregori
