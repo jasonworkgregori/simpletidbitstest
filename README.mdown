@@ -11,7 +11,7 @@ How To
 
 1.  __Get a Copy of simpletidbitstest__  
     [Download](http://github.com/jasongregori/simpletidbitstest) or clone with git.  
-    `git clone git://github.com/jasongregori/simpletidbitstest`
+    `git clone git://github.com/jasongregori/simpletidbitstest.git`
 
 2.  __Get a Copy of simpletidbits__  
     [Download](http://github.com/jasongregori/simpletidbits) or use git to clone a copy of simpletidbits from github.  
