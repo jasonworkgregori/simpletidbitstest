@@ -1,15 +1,15 @@
 //
-//  TestView.h
+//  TestCell.h
 //  STIBViewKitTest
 //
-//  Created by Jason Gregori on 10/27/09.
+//  Created by Jason Gregori on 11/1/09.
 //  Copyright 2009 Jason Gregori. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <STIBViewKit/STIBViewKit.h>
 
-@interface TestSTIBView : STIBView
+@interface TestSTIBCell : STIBTableViewCell
 {
     UILabel     *_label;
 }

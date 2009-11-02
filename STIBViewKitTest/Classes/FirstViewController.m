@@ -31,12 +31,12 @@
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    TestSTIBView    *tv1    = [TestSTIBView instance];
+    TestSTIBView    *tv1    = [[TestSTIBView new] autorelease];
     tv1.label.text      = @"Made from an STIBView";
     tv1.center  = CGPointMake(160, 300);
     [self.view addSubview:tv1];
     
-    UIView      *tv2        = [STIBView IBViewForNibNamed:@"TestUIView"];
+    UIView      *tv2        = [STIBView ST_IBViewForNibNamed:@"TestUIView"];
     tv2.center  = CGPointMake(160, 110);
     [self.view addSubview:tv2];
     

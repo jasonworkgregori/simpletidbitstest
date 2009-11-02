@@ -18,6 +18,11 @@
 		7941473A1097D254006370AC /* TestSTIBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 794147391097D254006370AC /* TestSTIBView.m */; };
 		794147661097D84E006370AC /* TestSTIBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794147651097D84E006370AC /* TestSTIBView.xib */; };
 		7956C1FA109E2C8600BF92C5 /* TestUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7956C1F9109E2C8600BF92C5 /* TestUIView.xib */; };
+		7956C259109E583800BF92C5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956C257109E583800BF92C5 /* TableViewController.m */; };
+		7956C25A109E583800BF92C5 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7956C258109E583800BF92C5 /* TableViewController.xib */; };
+		7956C25C109E58AD00BF92C5 /* TestSTIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7956C25B109E58AD00BF92C5 /* TestSTIBCell.xib */; };
+		7956C264109E592200BF92C5 /* TestSTIBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956C263109E592200BF92C5 /* TestSTIBCell.m */; };
+		7956C28E109E5D5100BF92C5 /* TestUICell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7956C28D109E5D5100BF92C5 /* TestUICell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,13 @@
 		794147391097D254006370AC /* TestSTIBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSTIBView.m; sourceTree = "<group>"; };
 		794147651097D84E006370AC /* TestSTIBView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestSTIBView.xib; sourceTree = "<group>"; };
 		7956C1F9109E2C8600BF92C5 /* TestUIView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestUIView.xib; sourceTree = "<group>"; };
+		7956C256109E583800BF92C5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7956C257109E583800BF92C5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		7956C258109E583800BF92C5 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewController.xib; path = Classes/TableViewController.xib; sourceTree = "<group>"; };
+		7956C25B109E58AD00BF92C5 /* TestSTIBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TestSTIBCell.xib; path = Classes/TestSTIBCell.xib; sourceTree = "<group>"; };
+		7956C262109E592200BF92C5 /* TestSTIBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSTIBCell.h; sourceTree = "<group>"; };
+		7956C263109E592200BF92C5 /* TestSTIBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSTIBCell.m; sourceTree = "<group>"; };
+		7956C28D109E5D5100BF92C5 /* TestUICell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestUICell.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* STIBViewKitTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "STIBViewKitTest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,10 +89,14 @@
 			children = (
 				28216C950DB411BC00E5133A /* FirstViewController.h */,
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				7956C256109E583800BF92C5 /* TableViewController.h */,
+				7956C257109E583800BF92C5 /* TableViewController.m */,
 				1D3623240D0F684500981E51 /* STIBViewKitTestAppDelegate.h */,
 				1D3623250D0F684500981E51 /* STIBViewKitTestAppDelegate.m */,
 				794147381097D254006370AC /* TestSTIBView.h */,
 				794147391097D254006370AC /* TestSTIBView.m */,
+				7956C262109E592200BF92C5 /* TestSTIBCell.h */,
+				7956C263109E592200BF92C5 /* TestSTIBCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -118,9 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				7956C258109E583800BF92C5 /* TableViewController.xib */,
 				8D1107310486CEB800E47090 /* STIBViewKitTest-Info.plist */,
 				794147651097D84E006370AC /* TestSTIBView.xib */,
 				7956C1F9109E2C8600BF92C5 /* TestUIView.xib */,
+				7956C25B109E58AD00BF92C5 /* TestSTIBCell.xib */,
+				7956C28D109E5D5100BF92C5 /* TestUICell.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -206,6 +225,9 @@
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				794147661097D84E006370AC /* TestSTIBView.xib in Resources */,
 				7956C1FA109E2C8600BF92C5 /* TestUIView.xib in Resources */,
+				7956C25A109E583800BF92C5 /* TableViewController.xib in Resources */,
+				7956C25C109E58AD00BF92C5 /* TestSTIBCell.xib in Resources */,
+				7956C28E109E5D5100BF92C5 /* TestUICell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +242,8 @@
 				1D3623260D0F684500981E51 /* STIBViewKitTestAppDelegate.m in Sources */,
 				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
 				7941473A1097D254006370AC /* TestSTIBView.m in Sources */,
+				7956C259109E583800BF92C5 /* TableViewController.m in Sources */,
+				7956C264109E592200BF92C5 /* TestSTIBCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

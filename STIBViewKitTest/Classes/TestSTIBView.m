@@ -22,12 +22,5 @@
     return self;
 }
 
-- (void)dealloc
-{
-    [_label release];
-    
-    [super dealloc];
-}
-
 
 @end
