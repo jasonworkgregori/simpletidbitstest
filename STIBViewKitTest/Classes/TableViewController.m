@@ -103,7 +103,7 @@
         }
         else
         {
-            cell = [UIView ST_IBViewForNibNamed:@"TestUICell"];
+            cell = [UIView st_IBViewForNibNamed:@"TestUICell"];
         }
 
     }

@@ -36,7 +36,7 @@
     tv1.center  = CGPointMake(160, 300);
     [self.view addSubview:tv1];
     
-    UIView      *tv2        = [STIBView ST_IBViewForNibNamed:@"TestUIView"];
+    UIView      *tv2        = [STIBView st_IBViewForNibNamed:@"TestUIView"];
     tv2.center  = CGPointMake(160, 110);
     [self.view addSubview:tv2];
     
