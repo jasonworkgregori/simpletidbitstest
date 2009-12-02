@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>First Section</string>
+		<key>rows</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>First Row</string>
+				<key>key</key>
+				<string>1,1</string>
+				<key>defaultValue</key>
+				<string>1,1</string>
+				<key>cell</key>
+				<string>Edit</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Second Row</string>
+				<key>key</key>
+				<string>1,2</string>
+				<key>defaultValue</key>
+				<string>1,2</string>
+				<key>cell</key>
+				<string>Edit</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Third Row</string>
+				<key>key</key>
+				<string>1,3</string>
+				<key>defaultValue</key>
+				<string>1,3</string>
+				<key>cell</key>
+				<string>STMenuEditTableViewCell</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>Forth Row</string>
+				<key>key</key>
+				<string>1,4</string>
+				<key>defaultValue</key>
+				<string>1,4</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
