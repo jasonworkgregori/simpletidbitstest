@@ -47,5 +47,21 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>Open a Menu</string>
+		<key>rows</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>Menu</string>
+				<key>menu</key>
+				<dict>
+					<key>plist</key>
+					<string>MainMenu.plist</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>
