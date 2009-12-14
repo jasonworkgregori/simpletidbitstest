@@ -15,6 +15,7 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		795903BF10C61E0500DB0F5F /* libSTMenuKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 795903BD10C61DCB00DB0F5F /* libSTMenuKit.a */; };
 		795903D510C61EF000DB0F5F /* MainMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 795903D410C61EF000DB0F5F /* MainMenu.plist */; };
+		F728F3E310D6F056005B527A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728F3E210D6F056005B527A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		795903B810C61DCB00DB0F5F /* STMenuKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = STMenuKit.xcodeproj; path = ../../simpletidbits/STMenuKit/STMenuKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		795903D410C61EF000DB0F5F /* MainMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainMenu.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* STMenuKitTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "STMenuKitTest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F728F3E210D6F056005B527A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				795903BF10C61E0500DB0F5F /* libSTMenuKit.a in Frameworks */,
+				F728F3E310D6F056005B527A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				F728F3E210D6F056005B527A /* MapKit.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";

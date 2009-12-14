@@ -85,5 +85,23 @@
 			</dict>
 		</array>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>Maps</string>
+		<key>rows</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>BaseMap</string>
+				<key>key</key>
+				<string>map</string>
+				<key>menu</key>
+				<dict>
+					<key>class</key>
+					<string>Map</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
 </array>
 </plist>
